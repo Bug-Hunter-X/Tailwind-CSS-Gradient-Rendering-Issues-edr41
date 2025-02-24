@@ -1,0 +1,10 @@
+```html
+<div class="bg-gradient-to-r from-blue-500 to-purple-500 p-4 rounded-lg shadow-md">
+  <!-- Content here -->
+</div>
+```
+To fix this:
+
+1. **Double-check color names:** Ensure the color names (`from-blue-500`, `to-purple-500` in this case) are correct and exist within the Tailwind CSS color palette.
+2. **Verify gradient direction:**  The `to-r` specifies the gradient direction. Use `to-t`, `to-b`, `to-l`, `to-r`, `to-tr`, `to-tl`, `to-br`, or `to-bl` for top, bottom, left, right, top-right, top-left, bottom-right, and bottom-left directions respectively.
+3. **Consider using more specific colors:**  If you need precise colors, use hex codes or rgb values directly within your Tailwind configuration. 
